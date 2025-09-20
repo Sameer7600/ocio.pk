@@ -42,7 +42,7 @@ const Page = () => {
               alt="Hero image"
               width={270}
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -64,7 +64,7 @@ const Page = () => {
               alt="Hero image"
               width={270}
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -86,7 +86,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -108,7 +108,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -130,7 +130,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -152,7 +152,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -174,7 +174,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -196,7 +196,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -218,7 +218,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -240,7 +240,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>
@@ -262,7 +262,7 @@ const Page = () => {
               alt="Hero image"
               width={270} 
               height={336}
-              className="object-contain object-center w-full h-full"
+              className="object-contain object-center w-full h-full hover:scale-105"
               priority
             />
           </div>

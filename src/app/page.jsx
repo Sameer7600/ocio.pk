@@ -14,7 +14,7 @@ export default function Home() {
               alt="Co-ord Sets"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-2">Co-ord Sets</p>
           </div>
@@ -25,7 +25,7 @@ export default function Home() {
               alt="Night Suits"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-2">Night Suits</p>
           </div>
@@ -36,7 +36,7 @@ export default function Home() {
               alt="Kids Night Suits"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-2">Kids Night-Suits</p>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
               alt="Fabric Mask"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-2">Fabric Mask</p>
           </div>
@@ -58,7 +58,7 @@ export default function Home() {
               alt="Silk Scrunchies"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-2">Silk Scrunchies</p>
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
               alt="Unstitched Fabric"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-2">Unstitched Fabric</p>
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
               alt="Kids Mask"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-5 mb-5">Kids Mask</p>
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
               alt="Embroidered Masks"
               width={500}
               height={500}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <p className="text-xl font-bold mt-5 mb-5">Embroidered Masks</p>
           </div>
@@ -170,7 +170,7 @@ export default function Home() {
               alt="Pink suit"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Pink Polka-WPJ50</div>
             <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
@@ -183,7 +183,7 @@ export default function Home() {
               alt="Yellow suit"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Yellow Dalsy-WPJ70</div>
             <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
@@ -196,7 +196,7 @@ export default function Home() {
               alt="Sky suit"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Dalsy Blue - WPJS10</div>
             <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
@@ -209,7 +209,7 @@ export default function Home() {
               alt="Purple suit"
               width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Lllac Wines-WPJ70</div>
             <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
