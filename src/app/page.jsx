@@ -1,8 +1,19 @@
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
+      <section className="relative w-full h-screen my-0">
+        <Image
+          src="/images/home-banner-hero.webp"
+          alt="Fabric Hero"
+          fill
+          priority
+          className="object-cover object-center"
+        />
+      </section>
+
       <main>
         <h2 className="text-4xl font-bold ml-12 mt-6">Shop By Category</h2>
 
@@ -16,7 +27,10 @@ export default function Home() {
               height={400}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-2">Co-ord Sets</p>
+            <p className="text-xl font-bold mt-2 ">
+              Co-ord Sets{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
 
           <div>
@@ -27,7 +41,10 @@ export default function Home() {
               height={400}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-2">Night Suits</p>
+            <p className="text-xl font-bold mt-2">
+              Night Suits{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
 
           <div>
@@ -38,7 +55,10 @@ export default function Home() {
               height={400}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-2">Kids Night-Suits</p>
+            <p className="text-xl font-bold mt-2">
+              Kids Night-Suits{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
 
           <div>
@@ -49,7 +69,10 @@ export default function Home() {
               height={400}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-2">Fabric Mask</p>
+            <p className="text-xl font-bold mt-2">
+              Fabric Mask{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
 
           <div>
@@ -60,7 +83,10 @@ export default function Home() {
               height={400}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-2">Silk Scrunchies</p>
+            <p className="text-xl font-bold mt-2">
+              Silk Scrunchies{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
 
           <div>
@@ -71,7 +97,10 @@ export default function Home() {
               height={400}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-2">Unstitched Fabric</p>
+            <p className="text-xl font-bold mt-2">
+              Unstitched Fabric{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
         </div>
 
@@ -85,7 +114,10 @@ export default function Home() {
               height={400}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-5 mb-5">Kids Mask</p>
+            <p className="text-xl font-bold mt-5 mb-5">
+              Kids Mask{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
 
           <div>
@@ -96,7 +128,10 @@ export default function Home() {
               height={500}
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
-            <p className="text-xl font-bold mt-5 mb-5">Embroidered Masks</p>
+            <p className="text-xl font-bold mt-5 mb-5">
+              Embroidered Masks{" "}
+              <ArrowRight className="w-4 h-4 inline-block hover:scale-125" />{" "}
+            </p>
           </div>
         </div>
       </main>
@@ -173,7 +208,9 @@ export default function Home() {
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Pink Polka-WPJ50</div>
-            <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
+            <span className="line-through ml-5 text-gray-300">
+              Rs.3,000 PKR
+            </span>
             <span className="ml-2 font-bold">Rs.1,996 PKR</span>
           </div>
 
@@ -186,7 +223,9 @@ export default function Home() {
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Yellow Dalsy-WPJ70</div>
-            <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
+            <span className="line-through ml-5 text-gray-300">
+              Rs.3,000 PKR
+            </span>
             <span className="ml-2 font-bold">Rs.1,996 PKR</span>
           </div>
 
@@ -199,7 +238,9 @@ export default function Home() {
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Dalsy Blue - WPJS10</div>
-            <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
+            <span className="line-through ml-5 text-gray-300">
+              Rs.3,000 PKR
+            </span>
             <span className="ml-2 font-bold">Rs.1,996 PKR</span>
           </div>
 
@@ -212,7 +253,9 @@ export default function Home() {
               className="w-full h-auto object-cover rounded-lg hover:scale-105"
             />
             <div className="m-5 font-bold mb-3">Lllac Wines-WPJ70</div>
-            <span className="line-through ml-5 text-gray-300">Rs.3,000 PKR</span>
+            <span className="line-through ml-5 text-gray-300">
+              Rs.3,000 PKR
+            </span>
             <span className="ml-2 font-bold">Rs.1,996 PKR</span>
           </div>
         </div>
@@ -223,8 +266,8 @@ export default function Home() {
         </div>
       </section>
 
-        {/* Top Black Section */}
-        <div className="h-60 w-full bg-black text-white grid grid-cols-1 md:grid-cols-2 gap-6 px-10 py-10">
+      {/* Top Black Section */}
+      <div className="h-60 w-full bg-black text-white grid grid-cols-1 md:grid-cols-2 gap-6 px-10 py-10">
         <div className="space-y-3 md:ml-72">
           <p className="font-bold text-lg">Nationwide Delivery</p>
           <p>199/- Delivery All Over Pakistan</p>
@@ -237,7 +280,6 @@ export default function Home() {
           <p>Email : Ocio.exports@gmail.com</p>
         </div>
       </div>
-      
     </div>
   );
 }
